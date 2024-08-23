@@ -1,0 +1,14 @@
+{
+  "extends": "ts-conf-base/tsconfig.vue.json",
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "lib": ["ESNext", "DOM"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*.vue", "src/**/*.ts", "src/**/*.tsx", "*.d.ts"],
+  "exclude": ["node_modules"]
+}

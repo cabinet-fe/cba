@@ -1,0 +1,45 @@
+{
+  "name": "ic-fe",
+  "description": "内控前端3.x",
+  "author": "YH_FE",
+  "type": "module",
+  "dependencies": {
+    "@ic/assets": "workspace:*",
+    "@ic/env": "workspace:*",
+    "@ic/pages": "workspace:*",
+    "@meta/apis": "0.0.125",
+    "@meta/cache": "0.0.6",
+    "@meta/components": "0.1.42",
+    "@meta/hooks": "0.0.5",
+    "@meta/shared": "0.0.9",
+    "@meta/store": "0.0.6",
+    "@meta/utils": "0.0.15",
+    "cat-kit": "3.6.8",
+    "crypto-js": "^4.2.0",
+    "icon-ultra": "3.0.13",
+    "pinia": "2.2.0",
+    "shiki": "1.12.0",
+    "ultra-ui": "0.0.291",
+    "vue": "3.4.38",
+    "vue-router": "4.4.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "9.0.7",
+    "@types/node": "^20.14.9",
+    "@vitejs/plugin-vue": "5.1.2",
+    "@vitejs/plugin-vue-jsx": "4.0.1",
+    "fast-glob": "3.3.2",
+    "picocolors": "1.0.1",
+    "prettier": "3.3.3",
+    "sass": "1.77.8",
+    "simple-git-hooks": "^2.11.1",
+    "ts-conf-base": "2.3.3",
+    "tsx": "4.17.0",
+    "typescript": "5.5.4",
+    "unplugin-vue-components": "0.27.4",
+    "vite": "5.4.1"
+  },
+  "simple-git-hooks": {
+    "commit-msg": "node scripts/verify-commit.js"
+  }
+}

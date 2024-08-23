@@ -1,0 +1,14 @@
+{
+  "name": "cba",
+  "module": "scripts/index.ts",
+  "type": "module",
+  "dependencies": {
+    "inquirer": "10.1.8"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
